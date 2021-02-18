@@ -5,7 +5,9 @@ import customer from './customer'
 const customerList = () => {
     return (
         <div>
-           <customer/> 
+           <customer/>
+           <customer/>
+           <customer/>
         </div>
     )
 }
