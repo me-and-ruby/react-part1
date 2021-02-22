@@ -1,0 +1,66 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.App{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    
+}
+.form{
+    flex: 1;
+    width: 100%;
+    background-color: #1234;
+    height: 100vh;
+    padding: 20px;
+}
+.display{
+    flex: 1;
+    width: 100%;
+    background-color: #ffff;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: justify;
+}
+input{
+    height: 1.8em;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 0 5px;
+}
+
+button{
+    padding: 5px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    color: #f4f4f4;
+    outline: none;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    box-shadow: 0 1px 2px yellow;
+    border-radius: 2px;
+}
+
+li{
+    padding: 10px;
+    list-style: upper-latin;
+    text-transform: capitalize;
+}
+li:hover{
+    background-color: #1234;
+    
+}
