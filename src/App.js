@@ -1,5 +1,6 @@
 import './main.css';
 import {useState } from 'react';
+import Form from "./components/form";
 
 
 const notes = [
@@ -56,6 +57,7 @@ function App(props) {
             <input type="text" value={inputValue} onChange={handleChange}/>
             <button >Add Name</button>
           </form>
+          
 
       </div>
       <div className="display">
